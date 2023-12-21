@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PandaCraft</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* jasno szare tło */
+            font-weight: bold; /* pogrubiona czcionka */
+        }
 
+        header {
+            text-align: center;
+            background-color: #00ced1; /* jasny cyan */
+            padding: 20px;
+        }
+
+        h1 {
+            color: #00ffff; /* jasny cyan */
+            margin: 0;
+        }
+
+        .info {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .config-title {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .green-frame {
+            border: 2px solid #008000; /* zielona ramka */
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .contact-title {
+            text-align: center;
+        }
+
+        .contact-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #008000; /* zielony przycisk */
+            color: #fff; /* biały tekst */
+            text-align: center;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PandaCraft - <span style="color: #008b8b;">Pomoc</span><span style="color: #008000;">|!|</span></h1>
+    </header>
+
+    <div class="info">
+        <p>Informacje</p>
+    </div>
+
+    <div class="config-title">
+        <p>Dane kontaktowe: pandacraftpomoc@gmail.com</p>
+    </div>
+
+    <div class="green-frame">
+        <div class="contact-title">
+            <p>Kliknij poniższy przycisk aby się skontaktować.</p>
+        </div>
+        <a href="https://mail.google.com" class="contact-btn">KONTAKT</a>
+    </div>
+
+</body>
+</html>
